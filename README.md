@@ -46,7 +46,17 @@ cd opencv-3.4.0
 mkdir build  
 cd build  
 ```
-7. <span style="color:red">Build caution!<span> - You can't get one letter wrong, so make a copy of it on a notepadmit it.
+7. swap check 1.9 -> 5.9
+```
+free -h
+```
+```
+sudo fallocate -l 4096M /var/swap_temp  
+sudo chmod 600 /var/swap_temp  
+sudo mkswap /var/swap_temp  
+sudo swapon /var/swap_temp  
+```
+9. <span style="color:red">Build caution!<span> - You can't get one letter wrong, so make a copy of it on a notepadmit it.
 
 ```
   cmake -D CMAKE_BUILD_TYPE=RELEASE \  
@@ -100,6 +110,12 @@ cd tf-pose-estimation
 sh install-tensorflow.sh  
 sh install-pose-estimation.sh  
 ```
+ 
+### (4) tf-posenet-estimation run for webcam
+```
+python3 run_webcam.py --model=mobilenet_thin --resize=320x176
+```
+
 <img width="100%" src="https://user-images.githubusercontent.com/41135138/129160255-295aaa51-d6aa-4dd7-a1f9-89ad5b4f19c5.gif" />
 
  
