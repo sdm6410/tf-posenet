@@ -100,3 +100,4 @@ cd tf-pose-estimation
 sh install-tensorflow.sh  
 sh install-pose-estimation.sh  
 ```
+<img width="100%" src="https://user-images.githubusercontent.com/41135138/129160255-295aaa51-d6aa-4dd7-a1f9-89ad5b4f19c5.gif" />
