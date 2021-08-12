@@ -93,7 +93,7 @@ sudo make install
 sudo sh -c 'echo '/usr/local/lib' > /etc/ld.so.conf.d/opencv.conf'  
 sudo ldconfig  
 ```
-### (2) Download and Install
+### (3) tensorflow & tf-posenet-estimation Download and Install
 ```
 git clone https://github.com/sdm6410/tf-posenet.git  
 cd tf-pose-estimation  
