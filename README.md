@@ -34,7 +34,7 @@ wget -O opencv.zip https://github.com/opencv/opencv/archive/3.4.0.zip
 wget -O opencv_contrib.zip https://github.com/opencv/opencv_contrib/archive/3.4.0.zip  
 ```
 Create a folder called openencv and openencv.zip and openencv_contrib in the folder.Download the zip. 
-Importantly, openencv and openencv_contrib versions must be the same. (3.4.0)
+Importantly, openencv and openencv_contrib versions must be the same. (3.4.0)  
 5. When the installation is complete, enter the command below to extract it.
 ```
 unzip opencv.zip  
