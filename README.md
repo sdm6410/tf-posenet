@@ -1,4 +1,4 @@
-# tf-posenet
+# jetson nano tf-posenet
 ### (1) jetPack install 
  * jetPack version 4.2.2
 
